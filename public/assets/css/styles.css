@@ -1,8 +1,46 @@
 body {
-  background-color: crimson;
+  background: url("https://images.unsplash.com/photo-1525184776124-adcb9d6bae73?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61f659c4bb24cbf2a9c49edbc7766aba&auto=format&fit=crop&w=3150&q=80") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+h1 {
+  text-align: center;
+}
 
-/* Bring in Bootstarp for grid layout
-Photo
-Styling */
+h2 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+li {
+  margin: 10px;
+}
+
+.mainContainer {
+  width: 90%;
+  background: rgba(186, 187, 189, 0.74);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+}
+
+.row {
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+.burger {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-lg-6 {
+  width: 100%;
+}
